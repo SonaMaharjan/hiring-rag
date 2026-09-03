@@ -1,10 +1,10 @@
-# 🤖 Hiring RAG Assistant
+# Hiring RAG Assistant
 
 An agentic, multi-tier Candidate Ranking and Self-RAG Assistant built for hiring managers. It automates job description requirement extraction, enforces explicit manager approval gates, audits candidate PDF resumes for security prompt injections, ranks candidates into flag tiers using multi-factor evaluation, and answers candidate-specific queries with hallucination-free Self-RAG.
 
 ---
 
-## 📹 Demo Video
+## Demo Video
 
 Watch the complete walkthrough and live demonstration on YouTube:
 
@@ -14,7 +14,7 @@ Watch the complete walkthrough and live demonstration on YouTube:
 
 ---
 
-## 💡 What This Project Does
+## What This Project Does
 
 1. **Job Ingestion & Approval Gate**: A hiring manager pastes a job description. The system automatically extracts key requirements (Education, Language, Certifications, Experience Years). Ranking remains **blocked** until the manager explicitly confirms by typing `approve`.
 2. **Resume Ingestion & Security Audit**: Candidate PDF resumes placed in `resumes/` are parsed and scanned by an LLM security checkpoint for prompt injection attacks (e.g., attempts to force top scores or override system instructions). Malicious CVs are isolated in `Prompt Injection Flag/`.
@@ -27,7 +27,7 @@ Watch the complete walkthrough and live demonstration on YouTube:
 
 ---
 
-## 🛠️ Technology Stack & Tools Used
+## Technology Stack & Tools Used
 
 - **Agent Framework & Backend**: [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/), `google-agents-cli`, FastAPI, A2A Protocol, Uvicorn.
 - **Hybrid LLM Architecture**:
@@ -41,12 +41,12 @@ Watch the complete walkthrough and live demonstration on YouTube:
 
 ---
 
-## 🚧 Work in Progress (WIP) & Production Readiness Roadmap
+## Work in Progress (WIP) & Production Readiness Roadmap
 
 > [!WARNING]
 > This project is a **Work in Progress (WIP)** designed as an exploratory agentic RAG system and is **currently far from production-ready**.
 
-### 🔴 What is Missing for Production Readiness:
+### What is Missing for Production Readiness:
 
 1. **Refined & Calibrated Ranking Logic**:
    - *Current State*: The candidate scoring mechanism relies on a fixed heuristic combination of cosine similarity, LLM skill judging, and experience ratios, which can currently feel somewhat arbitrary or simple.
@@ -82,7 +82,7 @@ Watch the complete walkthrough and live demonstration on YouTube:
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - **Python 3.11**
@@ -127,7 +127,7 @@ Watch the complete walkthrough and live demonstration on YouTube:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run unit and integration test suites:
 ```bash
@@ -136,6 +136,6 @@ uv run pytest tests/unit tests/integration
 
 ---
 
-## 📜 License
+## License
 
 Apache License 2.0
