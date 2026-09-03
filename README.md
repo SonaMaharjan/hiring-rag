@@ -14,7 +14,7 @@ Watch the complete walkthrough and live demonstration on YouTube:
 
 ---
 
-## 💡 What This Project Does (In Simple Terms)
+## 💡 What This Project Does
 
 1. **Job Ingestion & Approval Gate**: A hiring manager pastes a job description. The system automatically extracts key requirements (Education, Language, Certifications, Experience Years). Ranking remains **blocked** until the manager explicitly confirms by typing `approve`.
 2. **Resume Ingestion & Security Audit**: Candidate PDF resumes placed in `resumes/` are parsed and scanned by an LLM security checkpoint for prompt injection attacks (e.g., attempts to force top scores or override system instructions). Malicious CVs are isolated in `Prompt Injection Flag/`.
