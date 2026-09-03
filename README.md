@@ -1,12 +1,12 @@
 # Hiring RAG Assistant
 
-An agentic, multi-tier Candidate Ranking and Self-RAG Assistant built for hiring managers. It automates job description requirement extraction, enforces explicit manager approval gates, audits candidate PDF resumes for security prompt injections, ranks candidates into flag tiers using multi-factor evaluation, and answers candidate-specific queries with hallucination-free Self-RAG.
+An agentic, multi-tier candidate ranking and Self-RAG assistant built for hiring managers. It automates job description requirement extraction, enforces explicit manager approval gates, audits candidate PDF resumes for security prompt injections, ranks candidates into flag tiers using multi-factor evaluation, and answers candidate-specific queries with hallucination-free Self-RAG.
 
 ---
 
 ## Demo Video
 
-Watch the complete walkthrough and live demonstration on YouTube:
+Watch the demo on Youtube:
 
 [![Hiring RAG Assistant Demo](https://img.youtube.com/vi/oTDO0Yx9sIY/maxresdefault.jpg)](https://youtu.be/oTDO0Yx9sIY)
 
